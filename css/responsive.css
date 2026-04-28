@@ -233,17 +233,29 @@
         text-align: center;
         margin-top: 50px;
     }
+ 
     .about-txt2
    {
         padding-right: 0;
         text-align: center;
         margin-top: 50px;
     }
+       .inner-page #cart-view 
+   {
+   
+        padding-right: 0;
+        text-align: center;
+   
+    }
+    .inner-page #cart-view h3
+    {
+  font-size: 27px;
+    }
    .about-txt2 h3, 
     .about-txt h3 {
         font-size: 27px;
         padding: 10px 0 25px;
-        line-height: 45px;
+        line-height: 38px;
     }
 .about-txt2 p,
     .about-txt p {
@@ -267,7 +279,7 @@
     }
 
     .pre-match h3 {
-        font-size: 38px;
+        font-size: 27px;
         letter-spacing: 0;
     }
 
@@ -321,10 +333,10 @@
     }
 
     .player-txt h3 {
-        font-size: 28px;
-        padding: 5px 0 0 0;
+        font-size: 27px;
+                padding: 5px 0 20px 0;
         text-align: center;
-        line-height: 42px;
+        line-height: 38px;
     }
 
     .player-txt h4 {
@@ -341,8 +353,9 @@
     }
 
     .join-txt h3 {
-        font-size: 29px;
+        font-size: 27px;
         padding: 9px 0 40px;
+                line-height: 38px;
     }
 
     .join-txt span {
@@ -366,9 +379,17 @@
     }
 
     .subscribe-txt h3 {
-        font-size: 31px;
+        font-size: 27px;
+        line-height:38px;
     }
+    .product-item {
+    margin-bottom: 30px;
+}
+.player-txt p {
 
+    padding-right: 0;
+    text-align: center;
+}
     #footer {
         padding: 60px 0;
     }
@@ -411,7 +432,8 @@
     }
 .about-txt2 h3, 
     .about-txt h3 {
-        font-size: 31px;
+        font-size: 27px;
+        
     }
 }
 
@@ -665,6 +687,7 @@
         display: inline-block;
         width: 100%;
     }
+     #about3,
  #about2,
     #about {
         padding: 50px 0;

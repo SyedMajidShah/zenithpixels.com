@@ -722,9 +722,7 @@ input[type=radio] {
     font-family: br;
     font-size: 19px;
 }
-.inner-page #cart-view .row {
-    margin-bottom: 30px;
-}
+
 .inner-page #cart-view .row:last-child {
     margin-bottom: 0;
 }
@@ -831,7 +829,7 @@ input[type=radio] {
     color: white;
     font-family: bb;
     position: relative;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     padding-top: 2px;
 }
 
@@ -1168,7 +1166,7 @@ input[type=radio] {
 
 .banner-img img {
     position: absolute;
-    top: -80px;
+    top: -52px;
     z-index: 1;
 }
 
@@ -1579,6 +1577,7 @@ input[type=radio] {
 .counter-item {
     padding: 40px 0;
     background: #191919;
+    border: 1px solid #202020;
 }
 
 .counter-item i {
@@ -1878,8 +1877,12 @@ input[type=radio] {
     font-family: br;
     font-size: 19px;
     color: #787878;
+    padding-right: 40px;
 }
-
+.player-txt .text-center p
+ {
+    padding-right: 0;
+}
 .player-img {
     position: relative;
 }
@@ -1958,6 +1961,7 @@ ul.points-text li::before {
 /*===========================
 10.0 *** PRODUCT AREA START ***
 =============================*/
+
 #game,
 #product {
     padding: 80px 0;
@@ -1977,6 +1981,7 @@ ul.points-text li::before {
     padding: 30px 0px;
     position: relative;
         padding-top: 0;
+        border: 1px solid #202020; 
 }
 .product-item img{
    width: 100%;
@@ -2043,7 +2048,131 @@ ul.points-text li::before {
     color: white;
     font-size: 18px;
 }
+/*===========================
+xx.0 *** ABOUT US PAGE ***
+=============================*/
+blockquote {
+    border-left: 2px solid #e50914;
+    font-family: br;
+    font-size: 19px;
+    color: #787878;
+    margin-bottom: 35px !important;
+    font-style: italic;
+    background-color: #191919;
+    padding: 25px;
+}
+.player-section {
+    background: #191919;
+    padding: 50px 0px;
+    margin-top: 80px;
+}
+.player-section .player-pa2 {
+    padding-top: 0 !important;
+}
 
+.value-section {
+    padding: 80px 0px 55px 0px;
+}
+.value-section h3 {
+    font-family: bb;
+    color: white;
+    text-transform: uppercase;
+    padding: 5px 0 10px;
+    line-height: 52px;
+    font-size: 38px;
+}
+.value-section p
+{
+    font-family: br;
+    font-size: 19px;
+    color: #787878;
+}
+.box{
+margin-bottom: 25px;
+}
+.value-card {
+    padding: 25px;
+    background-color: #191919;
+    height: 100%;
+    border: 1px solid #202020;
+}
+.value-card .icon-box {
+    font-size: 42px;
+}
+.value-card h5 {
+    font-size: 25px;
+    font-family: bb;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 12px 0 12px;
+}
+.value-card p {
+    font-family: br;
+    font-size: 18px;
+    color: #787878;
+}
+
+/*===========================
+XX.0 ***GAMES PAGE ***
+=============================*/
+
+
+.inner-page #cart-view h3
+ {
+    font-size: 38px;
+    font-family: bb;
+    color: white;
+    text-transform: uppercase;
+    line-height: 52px;
+    padding: 5px 0 10px;
+}
+.inner-page #cart-view p {
+    font-family: br;
+    font-size: 19px;
+    color: #787878;
+    padding-bottom: 48px;
+}
+.inner-page #cart-view h3 b {
+    color: #e50914;
+}
+.privacy {
+    padding-bottom: 60px;
+}
+.privacy h4 {
+    font-size: 28px;
+    font-family: 'br';
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 0 15px;
+    line-height: 25px;
+}
+.privacy p
+ {
+    padding-bottom: 20px;
+    padding-right: 0;
+}
+.privacy blockquote {
+    border-left: 0;
+    font-style: normal;
+    margin-top: 15px;
+    padding: 25px;
+       border: 1px solid #202020; 
+}
+.privacy blockquote h5 {
+    font-size: 22px;
+    font-family: 'br';
+    color: white;
+    padding-bottom: 15px;
+        color: #e50914;
+}
+.privacy blockquote ul.points-text {
+    padding-bottom: 0 !important;
+}
+.privacy blockquote p b {
+    color: #e50914;
+    font-weight: normal;
+    padding-right: 15px;
+}
 /*===========================
 11.0 *** JOIN AREA START ***
 =============================*/
@@ -2054,9 +2183,10 @@ ul.points-text li::before {
 .join-bg {
     background: #191919;
     padding: 70px 60px;
-    border-radius: 8px;
+    border-radius: 0px;
     /* margin: 40px 0 0; */
     position: relative;
+       border: 1px solid #202020; 
 }
 
 .join-pa {
@@ -2216,10 +2346,10 @@ ul.points-text li::before {
 }
 
 .footer-logo a {
-    font-size: 34px;
+    font-size: 28px;
     font-family: bb;
     color: white;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
 }
 
 .footer-logo a b {
@@ -2311,6 +2441,6 @@ nav.navbar.footer_menu_top {
 }
 
 .copy-right-txt p a {
-    font-family: bb;
+    font-family: br;
     color: white;
 }
