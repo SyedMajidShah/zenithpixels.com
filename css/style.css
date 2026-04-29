@@ -1985,6 +1985,9 @@ ul.points-text li::before {
  background: #191919;
  position: relative;
 }
+section#cart-view .product-item {
+    margin-bottom: 30px;
+}
 .product-item {
     background: #191919;
     padding: 30px 0px;
@@ -1993,6 +1996,7 @@ ul.points-text li::before {
         border: 1px solid #202020; 
         
 }
+
 .related-pro .product-item
 {
     margin-bottom: 0px;
