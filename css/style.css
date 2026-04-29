@@ -727,7 +727,7 @@ input[type=radio] {
     margin-bottom: 0;
 }
 .inner-page #cart-view {
-    padding: 80px 0 15px;
+  padding: 80px 0px 50px 0px;
 }
 
 .inner-page .cart-items {
@@ -1301,7 +1301,8 @@ a.navbar-brand img {
 3.0 *** GAMES AREA START ***
 =============================*/
 #games {
-    padding: 70px 0;
+       padding-bottom: 80px;
+           padding-top: 80px;
 }
 
 .game-line {
@@ -1447,7 +1448,7 @@ a.navbar-brand img {
 4.0 *** ABOUT AREA START ***
 =============================*/
 #about {
-    padding: 80px 0;
+        padding-bottom: 80px;
     position: relative;
 }
 
@@ -1475,7 +1476,7 @@ a.navbar-brand img {
 }
 
 .about-pt {
-    padding-top: 65px;
+    padding-top: 50px;
 }
 
 .about-txt {
@@ -1581,7 +1582,7 @@ a.navbar-brand img {
 5.0 *** COUNTER AREA START ***
 =============================*/
 #counter {
-    padding: 45px 0;
+   padding: 50px 0px 80px 0px;
 }
 
 .counter-item {
@@ -1711,6 +1712,7 @@ a.navbar-brand img {
     color: white;
     text-transform: uppercase;
     line-height: 52px;
+    padding-bottom: 50px;;
 }
 
 .match-pa2 {
@@ -1784,7 +1786,7 @@ a.navbar-brand img {
 8.0 *** BRAND AREA START ***
 =============================*/
 #brand {
-    padding: 70px 0;
+    padding: 80px 0;
 }
 
 .brand-main img {
@@ -1793,9 +1795,6 @@ a.navbar-brand img {
     filter: contrast(0);
 }
 
-.brand-main {
-    margin-bottom: 40px;
-}
 .bdr-grey
 {
     border: 1px solid #202020;
@@ -1974,12 +1973,12 @@ ul.points-text li::before {
 
 #game,
 #product {
-    padding: 80px 0;
+        padding-bottom: 80px;
     position: relative;
 }
 
 .product-pa {
-    padding-top: 70px;
+    padding-top: 50px;
 }
 #product .product-item {
  /* padding: 30px 20px; */
@@ -1992,6 +1991,11 @@ ul.points-text li::before {
     position: relative;
         padding-top: 0;
         border: 1px solid #202020; 
+        
+}
+.related-pro .product-item
+{
+    margin-bottom: 0px;
 }
 .product-item img{
    width: 100%;
@@ -2126,7 +2130,10 @@ margin-bottom: 25px;
 XX.0 ***GAMES PAGE ***
 =============================*/
 
-
+section#about3 .about-pt
+ {
+    padding-top: 80px;
+}
 .inner-page #cart-view h3
  {
     font-size: 38px;
@@ -2384,6 +2391,7 @@ nav.navbar.footer_menu_top {
     position: static;
     padding: 0;
 }
+.footer-address h3,
 .footer-menu h3 {
     font-size: 24px;
     font-family: bb;
@@ -2427,7 +2435,17 @@ nav.navbar.footer_menu_top {
 .footer-social a i:hover {
     background: #e50914;
 }
-
+.footer-address p {
+    font-family: br;
+    font-size: 19px;
+    color: #787878;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.footer-address p a{
+     color: white;
+}
 /*===========================
 15.0 *** COPY_RIGHT AREA START ***
 =============================*/
