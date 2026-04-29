@@ -825,14 +825,23 @@ input[type=radio] {
 }
 
 .navbar-light .navbar-brand {
-    font-size: 28px;
+    font-size: 0;
     color: white;
     font-family: bb;
     position: relative;
-    letter-spacing: 2px;
-    padding-top: 2px;
+    /* letter-spacing: 2px; */
+    /* padding-top: 2px; */
+    /* width: 220px; */
+    margin: 0;
 }
-
+nav#navber .container {
+    display: flex;
+    flex-wrap: nowrap !important;
+}
+a.navbar-brand img {
+    width: 100%;
+    max-width: 100%;
+}
 .navbar-light .navbar-brand:focus,
 .navbar-light .navbar-brand:hover {
     color: white;
@@ -845,7 +854,8 @@ input[type=radio] {
 .navbar-light .navbar-nav .nav-link i {
     font-size: 16px;
     color: white;
-    margin-left: 22px;
+    /* margin-left: 22px; */
+     margin-left: 0px;
 }
 
 .menu-icon {
@@ -857,9 +867,9 @@ input[type=radio] {
 }
 
 .menu-icon i {
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
     text-align: center;
     background: #e50914;
     color: #fff;
@@ -1024,15 +1034,15 @@ input[type=radio] {
 }
 
 .menu-close a i {
-    font-size: 24px;
+    font-size: 18px;
     color: #fff;
-    width: 55px;
-    height: 55px;
+    width: 45px;
+    height: 45px;
     position: absolute;
     right: 30px;
     top: 30px;
     background: #e50914;
-    line-height: 55px;
+    line-height: 45px;
     border-radius: 50%;
     text-align: center;
 }
@@ -2351,7 +2361,13 @@ XX.0 ***GAMES PAGE ***
     color: white;
     letter-spacing: 2px;
 }
-
+.footer-logo > a {
+    display: inline-block;
+}
+.footer-logo > a img {
+    width: 100%;
+    max-width: 100%;
+}
 .footer-logo a b {
     color: #e50914;
 }
