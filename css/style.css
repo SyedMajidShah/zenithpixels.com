@@ -317,10 +317,10 @@ p {
 
 /* Login start */
 .logoss {
-    font-size: 36px;
+    width: 230px;
     font-family: bb;
     color: white;
-    letter-spacing: 6px;
+    display: inline-block;
 }
 
 .logoss span {
