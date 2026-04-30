@@ -831,7 +831,7 @@ input[type=radio] {
     position: relative;
     /* letter-spacing: 2px; */
     /* padding-top: 2px; */
-    /* width: 220px; */
+    width: 250px;
     margin: 0;
 }
 nav#navber .container {
@@ -2374,6 +2374,7 @@ section#about3 .about-pt
 }
 .footer-logo > a {
     display: inline-block;
+     width: 250px;
 }
 .footer-logo > a img {
     width: 100%;
